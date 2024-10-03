@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net46</TargetFramework>
+		<LangVersion>12</LangVersion>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ApplicationIcon>Assets/UFO.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Assets\Boom.png" />
+	  <None Remove="Assets\Decal.png" />
+	  <None Remove="Assets\UFO.ico" />
+	  <None Remove="Assets\ufo.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Assets\Boom.png" />
+	  <EmbeddedResource Include="Assets\Decal.png" />
+	  <EmbeddedResource Include="Assets\UFO.ico" />
+	  <EmbeddedResource Include="Assets\UFO.png" />
+	</ItemGroup>
+
+</Project>
